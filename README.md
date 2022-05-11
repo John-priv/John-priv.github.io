@@ -1,2 +1,3 @@
-# Portfolio_John_Privitera
-Portfolio Website (WIP)
+# Portfolio Website (WIP)
+
+https://john-priv.github.io/
