@@ -1,0 +1,14 @@
+h1 {
+    color: #1a0209;
+    font-size: 24pt;
+  }
+
+/*
+BROKEN CODE FOR CENTERING: 
+<style>
+    .content{
+        max-width: 640;
+        margin: auto;
+    }
+</style>
+*/

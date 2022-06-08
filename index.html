@@ -1,23 +1,22 @@
 <!DOCTYPE html>
 <html lang="en"></html>
 <head>
+    <link rel="stylesheet" href="styles.css">
     <title>Home -- John Privitera's Portfolio</title>
     <meta charset="utf-8">
 </head>
 
 <body>
-<h1>Hello!</h1>
+<h1>John Privitera</h1>
 
-<h2>My name is John Privitera and I am a Computer Engineer</h2>
-
-<h3>Education</h3>
+<h2>Education</h2>
 <p>
     Northeastern University, May 2022<br>
     Bachelor of Science<br>
     Electrical and Computer Engineering<br>
 </p>
 
-<h3>Experience</h3>
+<h2>Experience</h2>
     <p>
         <b>Desktop Metal</b>: January 2021 to August 2021 (8 months)<br>
         Embedded Software Co-op<br>
@@ -32,20 +31,61 @@
     </p>
 </p>
 
-Total: 22 months<br><br>
+Total: 22 months
 
-NOTE: This website is currently a work in progress. All elements in here are stubs that will be expanded upon later on (after more of the website is developed)<br>
+<h2>Projects</h2>
 
-<p>
+<h3>Security System</h3>
+<ul>
+    <li>Computer Vision team lead</li>
+    <li>The computer vision code was running on a Zedboard</li>
+    <li>Used OpenCV's HOG Descriptors to detect people in a camera frame</li>
+    <li>Coordinates of detected people are pushed to a queue and forwarded from the camera system to a remote base system</li>
+</ul>
+
+<h3>JPEG Compression in Hardware</h3>
+<ul>
+    <li>Implemented the DCT, quantization, dequantization, and IDCT steps of the JPEG algorithm on an FPGA</li>
+    <ul>
+        <li>FPGA was on a Xilinx PYNQ board</li>
+        <li>The PYNQ board was also running a Jupyter notebook</li>
+    </ul>
+    <li>Vivado's HLS C was used for programming the FPGA</li>
+    <li>Python was used for supporting functions:
+        <ul>
+            <li>Importing images</li>
+            <li>Generating 8x8 pixel chunks for DCT and quantization</li>
+            <li>Streaming the pixel chunks to and from the FPGA</li>
+            <li>Recombining the output chunks into a compressed image</li>
+        </ul>
+</ul>
+
+<h3>Bluetooth Robotic Arm</h3>
+<ul>
+    <li>Synchronized a robotic arm to a Wii remote</li>
+</ul>
+
+<h3>Light/Alcohol Seeking Robot</h3>
+<ul>
+    <li>Implemented C++ code on an Arduino for an autonomous robot that avoids obstacles and
+        detects light or alcohol</li>
+    <li>Developed an efficient search algorithm for robot movement using custom Matlab
+        simulations</li>
+</ul>
+
+<!-- <p>
     TODO:<br>
     - Add very basic CSS to the website<br>
     - Center the website (so that it loads/is readable on all devices)<br>
     - Add tabs to top of website: About, Projects (with sub tabs), Experience (Work), Resume, some form of contact/education/misc<br>
+    - Figure out if the "Experience" section will use paragraphs or list elements
     - Download javascript<br>
     - Add javascript<br>
     - OPTIONAL: Add simple animations to the website (tabs scrolling down when hovering)<br>
     - OPTIONAL: Figure out if it is possible for images to be processed after text<br>
     - OPTIONAL: Add videos for project demos<br>
-    <!-- TODO: Remove everything in this TODO section after tabs and stuff are added -->
-</p>
+    - Remove everything in this TODO section after tabs and stuff are added
+</p> -->
+
+Note: This website is currently a work in progress. All elements in here are stubs that will be expanded upon later on (after more of the website is developed).<br>
 </body>
