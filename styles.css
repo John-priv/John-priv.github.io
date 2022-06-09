@@ -3,6 +3,16 @@ h1 {
     font-size: 24pt;
   }
 
+#center_page {
+    margin-right: auto;
+    margin-left: auto;
+    max-width: 960px;
+}
+
+#center_element
+{
+    text-align: center;
+}
 /*
 BROKEN CODE FOR CENTERING: 
 <style>
