@@ -1,24 +1,37 @@
-h1 {
-    color: #1a0209;
-    font-size: 24pt;
-  }
-
 #center_page {
     margin-right: auto;
     margin-left: auto;
     max-width: 960px;
 }
 
-#center_element
-{
+#center_element {
     text-align: center;
 }
-/*
-BROKEN CODE FOR CENTERING: 
-<style>
-    .content{
-        max-width: 640;
-        margin: auto;
-    }
-</style>
-*/
+
+h1 {
+    color: #1a0209;
+    font-size: 24pt;
+    margin-bottom: 0px;
+}
+
+h2 {
+    margin-top: 0;
+    margin-bottom: 4px;
+}
+
+h3 {
+    margin-top: 0;
+    margin-bottom: 4px;
+}
+
+p {
+    margin-top: 0;
+}
+
+ul {
+    margin-top: 0;
+}
+
+a.noUnderLine {
+    text-decoration: none;
+}
