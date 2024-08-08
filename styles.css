@@ -10,7 +10,7 @@
 
 h1 {
     color: #1a0209;
-    font-size: 24pt;
+    /* font-size: 1.5rem; */
     margin-bottom: 0px;
 }
 
@@ -34,4 +34,5 @@ ul {
 
 a.noUnderLine {
     text-decoration: none;
+    color: #2d2dcf
 }
