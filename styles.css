@@ -1,27 +1,37 @@
 #center_page {
     margin-right: auto;
     margin-left: auto;
-    max-width: 60rem;
+    max-width: 90%;
+    min-width: 16rem;
 }
 
 #center_element {
     text-align: center;
 }
 
+#resume_base {
+    margin-right: auto;
+    margin-left: auto;
+    max-width: 60rem;
+    font-size: 1.1875rem;
+}
+
 h1 {
     color: #1a0209;
-    /* font-size: 1.5rem; */
+    font-size: 2rem;
     margin-bottom: 0px;
 }
 
 h2 {
     margin-top: 0;
     margin-bottom: 4px;
+    font-size: 1.5rem;
 }
 
 h3 {
     margin-top: 0;
     margin-bottom: 4px;
+    font-size: 1.3125rem;
 }
 
 p {
